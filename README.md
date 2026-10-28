@@ -86,6 +86,9 @@
 
 ## 📥 入手と使いかた
 
+> [!IMPORTANT]
+> ※本アプリはクローズドソース（非公開）です。Release 欄に自動表示されている `Source code` リンクには、README 等のドキュメント類のみが含まれています。
+
 [**Releases ページ**](https://github.com/rurihari/PTNGViewer/releases) から、お使いの形式のファイルを入手してください。
 
 ```bash
@@ -177,6 +180,9 @@ Read images from folders and archives (ZIP, RAR, 7-Zip and more) comfortably, as
 | **CPIO** | |
 
 ## 📥 Download and usage
+
+> [!IMPORTANT]
+> Note: This app is closed source (not publicly available). The `Source code` links shown automatically in the Releases section contain only documentation such as the README.
 
 Get the file in the format you prefer from the [**Releases page**](https://github.com/rurihari/PTNGViewer/releases).
 
