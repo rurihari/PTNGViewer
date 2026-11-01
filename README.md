@@ -89,6 +89,23 @@
 > [!IMPORTANT]
 > ※本アプリはクローズドソース（非公開）です。Release 欄に自動表示されている `Source code` リンクには、README 等のドキュメント類のみが含まれています。
 
+### おすすめ: Flatpak リポジトリから入れる（更新も届きます）
+
+次の2行を、ターミナルで実行します（管理者権限が必要です）。リポジトリの登録は、最初に1回だけです。
+
+```bash
+sudo flatpak remote-add --system --if-not-exists PTNGViewer https://rurihari.github.io/PTNGViewer/PTNGViewer.flatpakrepo
+sudo flatpak install PTNGViewer io.github.rurihari.PTNGViewer
+```
+
+登録すると、Linux Mint の「ソフトウェアの管理」で「PTNGViewer」を検索できます。更新は `flatpak update` で受け取れます。
+
+> [!NOTE]
+> Linux Mint では、「ソフトウェアの管理」の設定で、**未検証の Flatpak を表示する項目をオン**にしてください（既定では、検索結果に出ません）。
+> 管理者権限を使わずに、ターミナルだけで使う場合は、`--system` の代わりに `--user` を付けて登録し、`sudo` を付けずにインストールします（この場合、「ソフトウェアの管理」の検索には出ません）。
+
+### ファイルをダウンロードして入れる
+
 [**Releases ページ**](https://github.com/rurihari/PTNGViewer/releases) から、お使いの形式のファイルを入手してください。
 
 ```bash
@@ -183,6 +200,23 @@ Read images from folders and archives (ZIP, RAR, 7-Zip and more) comfortably, as
 
 > [!IMPORTANT]
 > Note: This app is closed source (not publicly available). The `Source code` links shown automatically in the Releases section contain only documentation such as the README.
+
+### Recommended: install from the Flatpak repository (updates included)
+
+Run these two commands in a terminal (administrator rights are required). The repository only needs to be added once.
+
+```bash
+sudo flatpak remote-add --system --if-not-exists PTNGViewer https://rurihari.github.io/PTNGViewer/PTNGViewer.flatpakrepo
+sudo flatpak install PTNGViewer io.github.rurihari.PTNGViewer
+```
+
+Once added, you can search for "PTNGViewer" in the Linux Mint Software Manager. Updates are delivered with `flatpak update`.
+
+> [!NOTE]
+> On Linux Mint, turn on the setting that shows **unverified Flatpaks** in the Software Manager's preferences (they are hidden from search results by default).
+> If you prefer not to use administrator rights and only use the terminal, add the repository with `--user` instead of `--system`, and install without `sudo` (in that case it will not appear in the Software Manager's search).
+
+### Or download a file
 
 Get the file in the format you prefer from the [**Releases page**](https://github.com/rurihari/PTNGViewer/releases).
 
