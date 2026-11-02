@@ -108,6 +108,9 @@ sudo flatpak install PTNGViewer io.github.rurihari.PTNGViewer
 
 [**Releases ページ**](https://github.com/rurihari/PTNGViewer/releases) から、お使いの形式のファイルを入手してください。
 
+- **tar.gz**: 展開して、`PTNGViewer`（起動用のスクリプト）を実行します。足りないライブラリがあれば、案内が出て、その場でインストールできます。手動で入れるなら、`sh install-deps.sh`（画像形式の部品も入れるなら `--all`）。
+- **AppImage / Flatpak**: 必要なものを含んでいるので、追加のインストールは要りません。
+
 ```bash
 # Flatpak (.flatpak ファイル)
 flatpak install --user PTNGViewer-<バージョン>.flatpak
@@ -219,6 +222,9 @@ Once added, you can search for "PTNGViewer" in the Linux Mint Software Manager. 
 ### Or download a file
 
 Get the file in the format you prefer from the [**Releases page**](https://github.com/rurihari/PTNGViewer/releases).
+
+- **tar.gz**: extract it and run `PTNGViewer` (a launcher script). If libraries are missing, it tells you and offers to install them. To install manually, run `sh install-deps.sh` (add `--all` for image-format components).
+- **AppImage / Flatpak**: they already include what they need, so nothing extra has to be installed.
 
 ```bash
 # Flatpak (.flatpak file)
