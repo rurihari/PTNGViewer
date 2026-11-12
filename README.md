@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="_9gG9iwF78-fpIpYN04-4xFw8S6tYO89ZutlL3i4ono" />
 <h1 align="center">PTNGViewer</h1>
 
 <p align="center">
