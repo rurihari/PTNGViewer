@@ -46,7 +46,12 @@
 | 🪟 | **パネルのタブを自由に配置** | 左右のパネルのタブを入れ替えて、自分の使いやすい形にできます |
 | 🎨 | **フィルター** | 色調補正などの画像フィルターを、重ねて掛けられます |
 | 🔌 | **プラグイン** | 機能を追加して拡張できます |
-| 🌏 | **22 言語の表示** | 画面の言語を切り替えられます |
+| 🌏 | **22 言語の表示** | 画面の言語を切り替えられます。<br>**対応言語**: 日本語、英語、中国語（簡体字）、中国語（繁体字）、韓国語、スペイン語、フランス語、ドイツ語、イタリア語、ポルトガル語、ロシア語<br>**誤訳を含む可能性のある言語**: ウクライナ語、ポーランド語、オランダ語、トルコ語、ベトナム語、インドネシア語、タイ語、ヒンディー語、スワヒリ語、タガログ語、アラビア語（下の注意を参照） |
+
+> [!NOTE]
+> **言語についての注意**
+>
+> ウクライナ語・ポーランド語・オランダ語・トルコ語・ベトナム語・インドネシア語・タイ語・ヒンディー語・スワヒリ語・タガログ語・アラビア語の11言語は、翻訳に誤りが含まれている可能性があります。これらの言語を選ぶと、アプリの中にも同じ注意が表示されます。誤りを見つけたときは、お知らせいただけると助かります。
 
 ## 🖼️ スクリーンショット
 
@@ -163,7 +168,12 @@ Read images from folders and archives (ZIP, RAR, 7-Zip and more) comfortably, as
 | 🪟 | **Freely arranged panel tabs** | Rearrange the tabs of the left and right panels |
 | 🎨 | **Filters** | Stack image filters such as color correction |
 | 🔌 | **Plugins** | Extend the app with plugins |
-| 🌏 | **22 UI languages** | Switch the display language |
+| 🌏 | **22 UI languages** | Switch the display language.<br>**Supported languages**: Japanese, English, Chinese (Simplified), Chinese (Traditional), Korean, Spanish, French, German, Italian, Portuguese, Russian<br>**Languages that may contain translation errors**: Ukrainian, Polish, Dutch, Turkish, Vietnamese, Indonesian, Thai, Hindi, Swahili, Tagalog, Arabic (see the note below) |
+
+> [!NOTE]
+> **About the languages**
+>
+> The translations for Ukrainian, Polish, Dutch, Turkish, Vietnamese, Indonesian, Thai, Hindi, Swahili, Tagalog and Arabic may contain errors. When you select one of these languages, the app shows the same notice. If you find a mistake, please let me know.
 
 ## 🖼️ Screenshots
 
