@@ -1,4 +1,4 @@
-<!-- アプリのバージョン / App version: 1.24.4  -->
+<!-- アプリのバージョン / App version: 1.24.5  -->
 <h1 align="center">PTNGViewer</h1>
 
 <p align="center">
@@ -117,16 +117,16 @@ sudo flatpak install PTNGViewer io.github.rurihari.PTNGViewer
 - **tar.gz**: 展開して、`PTNGViewer`（起動用のスクリプト）を実行します。足りないライブラリがあれば、案内が出て、その場でインストールできます。手動で入れるなら、`sh install-deps.sh`（画像形式の部品も入れるなら `--all`）。
 - **AppImage / Flatpak**: 必要なものを含んでいるので、追加のインストールは要りません。
 
-※ 以下は、最新の版（1.24.4）の例です。別のバージョンを入れたいときは、ファイル名の版の数字だけを書き換えてください。
+※ 以下は、最新の版（1.24.5）の例です。別のバージョンを入れたいときは、ファイル名の版の数字だけを書き換えてください。
 
 ```bash
 # Flatpak (.flatpak ファイル)
-flatpak install --user PTNGViewer-1.24.4.flatpak
+flatpak install --user PTNGViewer-1.24.5.flatpak
 flatpak run io.github.rurihari.PTNGViewer
 
 # AppImage
-chmod +x PTNGViewer-1.24.4-x86_64.AppImage
-./PTNGViewer-1.24.4-x86_64.AppImage
+chmod +x PTNGViewer-1.24.5-x86_64.AppImage
+./PTNGViewer-1.24.5-x86_64.AppImage
 ```
 
 アプリの中の **ヘルプ → マニュアル** に、使いかたとプラグインの作りかたがあります。
@@ -239,16 +239,16 @@ Get the file in the format you prefer from the [**Releases page**](https://githu
 - **tar.gz**: extract it and run `PTNGViewer` (a launcher script). If libraries are missing, it tells you and offers to install them. To install manually, run `sh install-deps.sh` (add `--all` for image-format components).
 - **AppImage / Flatpak**: they already include what they need, so nothing extra has to be installed.
 
-The examples below use the latest version (1.24.4). To install a different version, just change the version number in the file name.
+The examples below use the latest version (1.24.5). To install a different version, just change the version number in the file name.
 
 ```bash
 # Flatpak (.flatpak file)
-flatpak install --user PTNGViewer-1.24.4.flatpak
+flatpak install --user PTNGViewer-1.24.5.flatpak
 flatpak run io.github.rurihari.PTNGViewer
 
 # AppImage
-chmod +x PTNGViewer-1.24.4-x86_64.AppImage
-./PTNGViewer-1.24.4-x86_64.AppImage
+chmod +x PTNGViewer-1.24.5-x86_64.AppImage
+./PTNGViewer-1.24.5-x86_64.AppImage
 ```
 
 Inside the app, **Help → Manual** explains how to use it and how to write plugins.
